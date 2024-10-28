@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "63200110757",
+    "project_id": "chatapp1-c2535",
+    "storage_bucket": "chatapp1-c2535.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63200110757:android:c0ed8195ad497a1bfe454c",
+        "android_client_info": {
+          "package_name": "com.example.nex_chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcp89pSmqltBYjUclYAtw2ZL0YwyMFC5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
