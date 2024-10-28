@@ -9,29 +9,7 @@ import 'package:nex_connect/shared/constaints.dart';
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
 if (kIsWeb) { 
-//for web version  
- await Firebase.initializeApp(
-    options: const  FirebaseOptions(
-      apiKey: 'AIzaSyDGy7g5SCkfgtux8BPHlyZ4YSeSRhlWv_4',
-    appId: '1:63200110757:web:aa06ef18ee2f02ebfe454c',
-    messagingSenderId: '63200110757',
-    projectId: 'chatapp1-c2535',
-    authDomain: 'chatapp1-c2535.firebaseapp.com',
-    storageBucket: 'chatapp1-c2535.appspot.com',
-
-    ),
-  );
 } else {
-  //for android and iso
-  await Firebase.initializeApp(
-    options:  FirebaseOptions(
-      apiKey: Constaints.apiKey,
-      appId: Constaints.appId,
-      messagingSenderId: Constaints.messagingSenderId,
-      projectId: Constaints.projectId,
-
-    ),
-  );
 }
 
   
